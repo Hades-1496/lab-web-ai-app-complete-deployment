@@ -2,6 +2,11 @@
 
 # Lab | Despliegue Completo de la App IA
 
+## 🚀 Enlaces de Producción
+- **Frontend (Netlify)**: [https://statuesque-faun-8c94a7.netlify.app](https://statuesque-faun-8c94a7.netlify.app)
+- **Backend (Railway)**: [https://lab-web-ai-app-complete-deployment-production-9c11.up.railway.app](https://lab-web-ai-app-complete-deployment-production-9c11.up.railway.app)
+- **Endpoint de Salud (Health Check)**: [https://lab-web-ai-app-complete-deployment-production-9c11.up.railway.app/health](https://lab-web-ai-app-complete-deployment-production-9c11.up.railway.app/health)
+
 ## Objetivo
 
 <!-- Desplegar la app construida en D1, D2 y D4 — backend FastAPI en Railway y frontend React en Netlify — de forma que funcione con URL pública y el agente IA responda en producción. -->
