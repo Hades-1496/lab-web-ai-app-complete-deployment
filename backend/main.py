@@ -11,7 +11,8 @@ from pydantic import BaseModel
 app = FastAPI()
 
 # PASO 1: CORS
-ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173").split(",")
+origins_env = os.getenv("ALLOWED_ORIGINS") or os.getenv("VITE_API_URL") or "http://localhost:5173"
+ORIGINS = origins_env.split(",")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=ORIGINS,
