@@ -1,0 +1,26 @@
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Pytest / Python cache
+.pytest_cache/
+__pycache__/
+*.pyc
+backend/__pycache__/
+backend/tests/__pycache__/
+
+# Node / JS build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Env variables
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+*.sqlite
+chroma_db/
